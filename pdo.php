@@ -1,13 +1,13 @@
 <?php
-$hote = 'localhost';
+$host = 'localhost';
 $port = "8000";
 $nom_bdd = 'weather_city';
-$utilisateur = ''; //enter your user
-$mot_de_passe =''; //enter your password
+$user = ''; //enter your user
+$password =''; //enter your password
 
 try {
 	//On test la connexion à la base de donnée
-    $pdo = new PDO('mysql:host='.$hote.';port='.$port.';dbname='.$nom_bdd, $utilisateur, $mot_de_passe);
+    $pdo = new PDO('mysql:host='.$host.';port='.$port.';dbname='.$nom_bdd, $user, $password);
 
 } catch(Exception $e) {
 	//Si la connexion n'est pas établie, on stop le chargement de la page.

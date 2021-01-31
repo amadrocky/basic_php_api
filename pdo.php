@@ -2,8 +2,8 @@
 $hote = 'localhost';
 $port = "8000";
 $nom_bdd = 'weather_city';
-$utilisateur = 'root';
-$mot_de_passe ='amadrocky';
+$utilisateur = ''; //enter your user
+$mot_de_passe =''; //enter your password
 
 try {
 	//On test la connexion à la base de donnée
